@@ -77,7 +77,7 @@ const App = () => {
         className='img__bg'
         alt='...'
       />
-      <main className='container mt-4 main__body'>
+      <main className='container-fluid-md container-lg mt-4 main__body'>
         <div className='results d-flex gap-3'>
           {fetchedData ? (
             fetchedData.map((item) => {
